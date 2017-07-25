@@ -63,7 +63,7 @@ https://devcenter.heroku.com/articles/heroku-cli
 
 Launch and login :
 
-    $ heroku
+    $ heroku login
 
 Init your Git heroku project :
 
