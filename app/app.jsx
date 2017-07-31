@@ -6,7 +6,11 @@ var {
   IndexRoute,
   hashHistory
 } = require('react-router');
-var Main = require('Main');
+import Main from 'Main';
+import Home from 'Home';
+import Blog from 'Blog';
+import Connexion from 'Connexion';
+import Newsletter from 'Newsletter';
 
 // load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -16,9 +20,12 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-  <Router history={ hashHistory }>
-    <Route path="/" component={ Main }>
-    
+  <Router history={hashHistory}>
+    <Route path="/" component={Main}>
+      <Route path="/newsletter" component={Newsletter}/>
+      <Route path="/connexion" component={Connexion}/>
+      <Route path="/blog" component={Blog}/>
+      <IndexRoute component={Home}/>
     </Route>
   </Router>,
   document.getElementById("app")
