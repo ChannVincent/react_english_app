@@ -6,8 +6,8 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
+        <div className="home-landing-picture"/>
         <p>Home</p>
-        <img className="home-landing-picture" alt="Landing picture."/>
       </div>
     )
   }

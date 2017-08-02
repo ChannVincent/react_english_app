@@ -28,6 +28,7 @@ Install node modules :
 
 Web pack your files :
 
+    (if not installed) $ sudo npm install webpack -g
     $ webpack
 
 Start server :  

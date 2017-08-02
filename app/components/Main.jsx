@@ -3,9 +3,9 @@ import Navigation from 'Navigation';
 
 var Main = (props) => {
   return (
-    <div>
+    <div className="container">
       <Navigation/>
-      <div>
+      <div className="content-container">
         { props.children }
       </div>
     </div>
