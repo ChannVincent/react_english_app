@@ -37,6 +37,8 @@ module.exports = {
       Blog: 'app/components/Blog.jsx',
       Home: 'app/components/Home.jsx',
       applicationStyles: 'app/styles/app.scss',
+
+      CardPackage: 'app/components/common/CardPackage.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },
