@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import CardPackage from 'CardPackage';
+import CardTransparent from 'CardTransparent';
 
 class Home extends Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends Component {
         <div className="home-landing-picture">
           <div className="row">
             <div className="home-teaser-description small-offset-1 medium-offset-1 large-offset-1 small-10 medium-10 large-6">
-              <h1 className="home-landing-title">Phrase d'accroche à déterminer</h1>
+              <h1 className="home-landing-title"><b>Phrase d'accroche à déterminer</b></h1>
               <h4 className="home-landing-subtitle">Ils nous font confiance.</h4>
             </div>
           </div>
@@ -18,7 +19,7 @@ class Home extends Component {
         <div className="home-student">
           <div className="row">
             <div className="home-package-description small-12 medium-12 large-12">
-              <h2>Packages Etudiant</h2>
+              <h2><b>Packages Etudiant</b></h2>
               <br/>
               <p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
             </div>
@@ -32,12 +33,12 @@ class Home extends Component {
               />
             <CardPackage
               title="Package 2"
-              urlImage="https://www.w3schools.com/css/img_fjords.jpg"
+              urlImage="http://www.supportduweb.com/ftp/ybouane/scripts_astuces/gimp/cadre/image.png"
               description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
               />
             <CardPackage
               title="Package 3"
-              urlImage="https://www.w3schools.com/css/img_fjords.jpg"
+              urlImage="https://user.oc-static.com/files/6001_7000/6410.jpg"
               description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
               />
           </div>
@@ -46,14 +47,28 @@ class Home extends Component {
         <div className="home-teacher">
           <div className="row">
             <div className="home-package-description small-12 medium-12 large-12">
-              <h2>Avantages professeurs</h2>
+              <h2><b>Avantages professeur</b></h2>
               <br/>
               <p>Has autem provincias, quas Orontes ambiens amnis imosque pedes Cassii montis illius celsi praetermeans funditur in Parthenium mare, Gnaeus Pompeius superato Tigrane regnis Armeniorum abstractas dicioni Romanae coniunxit.</p>
             </div>
           </div>
 
           <div className="row">
-
+            <CardTransparent
+              title="Avantage 1"
+              urlImage="https://daks2k3a4ib2z.cloudfront.net/5599dd77c19d1f625d781d22/55c8f59d8f9512171195fdc4_Phone%20savings.png"
+              description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+              />
+            <CardTransparent
+              title="Avantage 2"
+              urlImage="http://www.iconsdb.com/icons/preview/white/time-8-xxl.png"
+              description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+              />
+            <CardTransparent
+              title="Avantage 3"
+              urlImage="http://www.iconsdb.com/icons/preview/white/star-xxl.png"
+              description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+              />
           </div>
         </div>
 

@@ -39,6 +39,7 @@ module.exports = {
       applicationStyles: 'app/styles/app.scss',
 
       CardPackage: 'app/components/common/CardPackage.jsx',
+      CardTransparent: 'app/components/common/CardTransparent.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },
