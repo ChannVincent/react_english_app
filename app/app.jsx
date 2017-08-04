@@ -14,6 +14,7 @@ import Newsletter from 'Newsletter';
 
 // load foundation
 require('style!css!foundation-sites/dist/css/foundation.min.css');
+require('style!css!foundation-sites/dist/css/foundation-float.min.css');
 $(document).foundation();
 
 // App css
