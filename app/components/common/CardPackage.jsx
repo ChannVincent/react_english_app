@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 
 var CardPackage = (props) => {
+  var {title, description, urlImage} = props;
   return (
-    <div className="small-3 medium-3 large-3 cell">
-      <div className="card">
-        <div className="card-divider">
-          This is a header
+    <div className="small-12 medium-6 large-4 columns">
+      <div className="card" src={urlImage}>
+        <img className="card-image"/>
+        <div className="card-divider card-title">
+          <h4>{title}</h4>
         </div>
-        <img src="http://foundation.zurb.com/sites/docs/assets/img/generic/rectangle-1.jpg"/>
-        <div class="card-section">
-          <h4>This is a card.</h4>
-          <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        <div className="card-section card-description">
+          <p>{description}</p>
         </div>
       </div>
     </div>

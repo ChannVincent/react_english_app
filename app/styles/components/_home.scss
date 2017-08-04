@@ -7,18 +7,33 @@
   width: 100%;
   background: url($landing-cover-image) center no-repeat;
   background-size: cover;
-  padding: 100px;
 
-  .home-landing-title {
-    color: $landing-title-color;
-  }
+  .home-teaser-description {
+    margin-top: 100px;
 
-  .home-landing-subtitle {
-    color: $landing-subtitle-color;
+    .home-landing-title {
+      color: $landing-title-color;
+    }
+
+    .home-landing-subtitle {
+      color: $landing-subtitle-color;
+    }
   }
 }
 
-.home-client-package-description {
-  padding: 50px;
-  
+.home-teacher {
+  padding: 30px 10px 30px 10px;
+  background-color: $highlight;
+
+  h2, p {
+    color: $white;
+  }
+}
+
+.home-student {
+  padding: 30px 10px 30px 10px;
+}
+
+.home-package-description {
+  padding: 15px;
 }
