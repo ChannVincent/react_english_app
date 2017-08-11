@@ -22,9 +22,6 @@ class Navigation extends Component {
                 <li>
                   <Link to="/newsletter" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Newsletter</Link>
                 </li>
-                <li>
-                  <Link to="/blog" activeClassName="active" activeStyle={{ fontWeight: 'bold' }}>Blog</Link>
-                </li>
               </ul>
             </div>
 
