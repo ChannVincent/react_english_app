@@ -8,17 +8,18 @@ class Connexion extends Component {
 
   render() {
     return (
-      <div>
-        <div className="medium-6 large-4 small-12 small-offset-0 medium-offset-3 large-offset-4 connexion">
-          <br/>
-          <br/>
-          <h3>Connexion</h3>
+      <div className="home-landing-picture">
+        <br/>
+        <br/>
+        <div className="medium-6 large-4 small-10 small-offset-1 medium-offset-3 large-offset-4 connexion card">
+
+          <h1><b>Inscription à la Newsletter</b></h1>
           <form ref="form" onSubmit={this.onSubmit}>
             <p>Email</p>
-            <input type="email" ref="seconds" placeholder="exemple@gmail.com"/>
+            <input type="email" ref="email" placeholder="exemple@gmail.com"/>
 
             <p>Password</p>
-            <input type="password" ref="seconds" placeholder="password"/>
+            <input type="password" ref="password" placeholder="password"/>
 
             <br/>
             <Link to="/newsletter">
