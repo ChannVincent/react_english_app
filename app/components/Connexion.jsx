@@ -8,24 +8,24 @@ class Connexion extends Component {
 
   render() {
     return (
-      <div className="home-landing-picture">
-        <br/>
-        <br/>
-        <div className="medium-6 large-4 small-10 small-offset-1 medium-offset-3 large-offset-4 connexion card">
+      <div className="connexion-landing-picture">
+        <div className="medium-6 large-4 small-10 small-offset-1 medium-offset-3 large-offset-4 connexion">
+          <div className="card connexion-form">
+            <h1><b>Connexion</b></h1>
+            <form ref="form" onSubmit={this.onSubmit}>
+              <p>Email</p>
+              <input type="email" ref="email" placeholder="exemple@gmail.com"/>
 
-          <h1><b>Inscription à la Newsletter</b></h1>
-          <form ref="form" onSubmit={this.onSubmit}>
-            <p>Email</p>
-            <input type="email" ref="email" placeholder="exemple@gmail.com"/>
+              <p>Password</p>
+              <input type="password" ref="password" placeholder="password"/>
 
-            <p>Password</p>
-            <input type="password" ref="password" placeholder="password"/>
+              <br/>
+              <Link to="/">
+                <button className="button expanded"><strong>Connexion</strong></button>
+              </Link>
+            </form>
+          </div>
 
-            <br/>
-            <Link to="/">
-              <button className="button expanded"><strong>Connexion</strong></button>
-            </Link>
-          </form>
         </div>
       </div>
     )

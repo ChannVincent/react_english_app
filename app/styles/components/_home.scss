@@ -17,6 +17,11 @@
   background: url($landing-cover-image) center no-repeat;
   background-size: cover;
 
+  .card {
+    padding: 30px;
+    margin-top: 20px;
+  }
+
   .home-teaser-description {
     margin-top: 100px;
 

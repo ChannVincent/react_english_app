@@ -10,10 +10,31 @@ class Home extends Component {
 
         <div className="home-landing-picture">
           <div className="row">
-            <div className="home-teaser-description small-offset-1 medium-offset-1 large-offset-1 small-10 medium-10 large-6">
+
+            <div className="home-teaser-description small-offset-1 medium-offset-1 large-offset-1 small-10 medium-5 large-5 column">
               <h1 className="home-landing-title"><b>Phrase d'accroche à déterminer</b></h1>
               <h4 className="home-landing-subtitle">Ils nous font confiance.</h4>
             </div>
+
+            <br/>
+            <br/>
+            <br/>
+            <div className="medium-6 large-6 small-12 column">
+              <div className="card medium-8 large-8 small-10 small-offset-1 medium-offset-2 large-offset-2 column">
+                <h2><b>Inscription</b></h2>
+                <form ref="form" onSubmit={this.onSubmit}>
+                  <p>Email</p>
+                  <input type="email" ref="email" placeholder="exemple@gmail.com"/>
+                  <p>Password</p>
+                  <input type="password" ref="password" placeholder="password"/>
+                  <br/>
+                  <Link to="/">
+                    <button className="button expanded"><strong>Inscription</strong></button>
+                  </Link>
+                </form>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -47,7 +68,7 @@ class Home extends Component {
           <br/>
           <div className="row">
             <div className="small-12 medium-10 large-8 small-offset-0 medium-offset-1 large-offset-2 columns start">
-              <Link to="/connexion">
+              <Link to="/">
                 <button className="button expanded"><strong>Inscription</strong></button>
               </Link>
             </div>
@@ -85,7 +106,7 @@ class Home extends Component {
           <br/>
           <div className="row">
             <div className="small-12 medium-10 large-8 small-offset-0 medium-offset-1 large-offset-2 columns start">
-              <Link to="/connexion">
+              <Link to="/">
                 <button className="button button-white expanded"><strong>Inscription</strong></button>
               </Link>
             </div>
