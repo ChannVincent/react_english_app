@@ -14,7 +14,7 @@ class Newsletter extends Component {
                 <input className="input-group-field" type="email" ref="email" placeholder="exemple@gmail.com"/>
                 <div className="input-group-button">
                   <Link to="/">
-                    <button className="button expanded">Inscription</button>
+                    <button className="button expanded"><strong>Inscription</strong></button>
                   </Link>
                 </div>
               </div>

@@ -1,5 +1,14 @@
 .home {
   height: 100%;
+
+  .button {
+    background-color: $highlight;
+  }
+
+  .button-white {
+    background-color: $white;
+    color: $highlight;
+  }
 }
 
 .home-landing-picture {

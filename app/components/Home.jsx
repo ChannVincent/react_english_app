@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CardPackage from 'CardPackage';
 import CardTransparent from 'CardTransparent';
+import {Link, IndexLink} from 'react-router';
 
 class Home extends Component {
   render() {
@@ -42,6 +43,16 @@ class Home extends Component {
               description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
               />
           </div>
+
+          <br/>
+          <div className="row">
+            <div className="small-12 medium-10 large-8 small-offset-0 medium-offset-1 large-offset-2 columns start">
+              <Link to="/connexion">
+                <button className="button expanded"><strong>Inscription</strong></button>
+              </Link>
+            </div>
+          </div>
+
         </div>
 
         <div className="home-teacher">
@@ -70,9 +81,17 @@ class Home extends Component {
               description="Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
               />
           </div>
+
+          <br/>
+          <div className="row">
+            <div className="small-12 medium-10 large-8 small-offset-0 medium-offset-1 large-offset-2 columns start">
+              <Link to="/connexion">
+                <button className="button button-white expanded"><strong>Inscription</strong></button>
+              </Link>
+            </div>
+          </div>
+
         </div>
-
-
       </div>
     )
   }

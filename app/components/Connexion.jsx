@@ -22,8 +22,8 @@ class Connexion extends Component {
             <input type="password" ref="password" placeholder="password"/>
 
             <br/>
-            <Link to="/newsletter">
-              <button className="button expanded">Connexion</button>
+            <Link to="/">
+              <button className="button expanded"><strong>Connexion</strong></button>
             </Link>
           </form>
         </div>
